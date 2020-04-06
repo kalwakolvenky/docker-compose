@@ -13,7 +13,7 @@ services:
       - back-tier
 
   result:
-    build: ./result   #Build is only for compose file 
+    build: ./result   
     command: nodemon server.js
     volumes:
       - ./result:/app
